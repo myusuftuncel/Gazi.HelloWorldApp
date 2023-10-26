@@ -36,6 +36,7 @@
 
             //byte yas;
             //Console.WriteLine(yas); 
+            //var sayi = 50.10f;
             #endregion
 
             #region String Biçimlendrime
@@ -47,15 +48,74 @@
             //Console.WriteLine($"Merhaba {isim} {soyad}"); 
             #endregion
 
-            Console.WriteLine("İsminizi Giriniz");
-            string isim = Console.ReadLine();
+            //Console.WriteLine("İsminizi Giriniz");
+            //string? isim = Console.ReadLine();
 
-            Console.WriteLine("Soyadınızı Giriniz");
-            string soyad = Console.ReadLine();
+            //Console.WriteLine("Soyadınızı Giriniz");
+            //string? soyad = Console.ReadLine();
 
-            Console.WriteLine($"Merhaba {isim} {soyad}");
+            //Console.WriteLine("Yaşınızı Giriniz");
+            //byte yas = byte.Parse(Console.ReadLine());
 
-            Console.ReadKey();
+            //Console.WriteLine($"Merhaba {isim} {soyad} Yaşınız {yas}");
+
+            //Console.ReadKey();
+
+
+            #region Notlar
+            //TÜR DÖNÜŞÜMLERİ (Type Casting)
+            //byte sayı = 20;
+            //int number = sayı; //İmplicit Type Casting
+            //Küçük türden büyük türe yapılan dönüşümler otomatik olarak gerçekleştirilir.
+
+
+            //checked
+            //{
+            //    int sayi = 256;
+            //    byte number = (byte)sayi; //Explicit Type Casting
+            //    Console.WriteLine(number);  
+            //}
+
+            //RİSK! 
+            //Büyük türden küçük türe yapılan dönüşümlerde veri kaybı ihtimali vardır.
+
+
+            ////String->Değer tipine
+            //string sayi = "20";
+            ////byte number = Convert.ToByte(sayi);
+            //byte number = byte.Parse(sayi);
+
+            #endregion
+
+
+            //OPERATÖRLER
+            //a=4   b=a++   a=5 b=4
+            //a=4   b=a--   a=3 b=4
+            //a=4   b=++a   a=5 b=5 
+            //a=4   b=--a   a=3 b=3
+
+            // 1 || 1 = 1 
+            // 1 || 0 = 1
+            // 0 || 1 = 1
+            // 0 || 0 = 0
+
+            // 1 && 1 = 1
+            // 1 && 0 = 0
+            // 0 && 1 = 0
+            // 0 && 0 = 0
+
+            //double maas = 5000;
+            //maas = maas + 1000;
+            //Console.WriteLine(maas);
+
+            //string sonuc = 10 > 5 ? "Birinci sayı büyüktür" : "İkinci sayı büyüktür veya eşittir";
+            //Console.WriteLine(sonuc);
+            Console.WriteLine("Birinci sayıyı giriniz");
+            byte num1 = byte.Parse(Console.ReadLine());
+            Console.WriteLine("İkinci sayıyı giriniz");
+            byte num2 = byte.Parse(Console.ReadLine());
+            string sonuc = num1 > num2 ? "Birinci sayı büyüktür" : "İkinci sayı büyüktür veya eşittir";
+            Console.WriteLine(sonuc);
         }
     }
 }
@@ -70,6 +130,8 @@
 //İntelliSense: Kod Yazım yardımcısı.
 //İntelliCode: Yapay zeka kod yardımcısı (Tab kullanarak)
 //Solution: İçerisinde bir ya da birden fazla proje bulunduran yapılar. Projelerin disk üzerinde kayıtlı olduğu yer bilgisini tutar.
+// . yı iki şeyin arasına koymak şunun içindeki şu demek
+//Veri türünden sonra ? koyarsan sarı uyarı gözardı edilir
 
 //KISAYOLLAR
 //Ctrl+B: Derleme kısayolu.
@@ -93,3 +155,5 @@
 //4- Game Development: Unity
 //5- IoT: Internet of Things (Akıllı cihazlar)
 //6- AI: Yapay Zeka
+
+//Tip Güvenliği (Type Safety): Atanmak istenen değer ile değerin atanacağı değişkenin veri tipi aynı anda uyumlu olmalıdır. Ancak atamanın yapılmasında teknik olarak sorun yoksa, tür dönüşümü yçntemleri ile sorun çözülebilir.
