@@ -89,6 +89,8 @@
 
 
             //OPERATÖRLER
+
+            // sayıyı al numbera ata 1 arttır
             //a=4   b=a++   a=5 b=4
             //a=4   b=a--   a=3 b=4
             //a=4   b=++a   a=5 b=5 
@@ -109,13 +111,15 @@
             //Console.WriteLine(maas);
 
             //string sonuc = 10 > 5 ? "Birinci sayı büyüktür" : "İkinci sayı büyüktür veya eşittir";
+            //Console.WriteLine(sonuc); 
+
+
+            //Console.WriteLine("Birinci sayıyı giriniz");
+            //byte num1 = byte.Parse(Console.ReadLine());
+            //Console.WriteLine("İkinci sayıyı giriniz");
+            //byte num2 = byte.Parse(Console.ReadLine());
+            //string sonuc = num1 > num2 ? "Birinci sayı büyüktür" : "İkinci sayı büyüktür veya eşittir";
             //Console.WriteLine(sonuc);
-            Console.WriteLine("Birinci sayıyı giriniz");
-            byte num1 = byte.Parse(Console.ReadLine());
-            Console.WriteLine("İkinci sayıyı giriniz");
-            byte num2 = byte.Parse(Console.ReadLine());
-            string sonuc = num1 > num2 ? "Birinci sayı büyüktür" : "İkinci sayı büyüktür veya eşittir";
-            Console.WriteLine(sonuc);
         }
     }
 }
