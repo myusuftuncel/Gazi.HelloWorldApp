@@ -120,33 +120,246 @@ namespace Gazi.DongulerApp
             //    }
             //}
 
-            int max = int.MinValue;
-            int toplam = 0;
-            for (; ; )
+            //int max = int.MinValue;
+            //int toplam = 0;
+            //for (; ; )
+            //{
+            //Console.Write("Bir sayı giriniz: ");
+            //int sayi = int.Parse(Console.ReadLine());
+            //    toplam += sayi;
+            //if (sayi > max)
+            //    {
+            //        max = sayi;
+            //    }
+            //Console.WriteLine("Devam etmek istiyor musunuz?");
+            //string yanit =Console.ReadLine().ToLower();
+            //if (yanit== "h")
+            //{
+            //        break;
+            //}            
+            //else if (yanit== "e")
+            //    {
+            //        continue;
+            //    }
+            //else
+            //    {
+            //        Console.WriteLine("Hatalı giriş yaptınız!");
+            //    }
+            //}
+            //Console.WriteLine($"Girilen en büyük sayı: {max}\nSayıların toplamı:{toplam}");
+
+
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    for (int j = 0; j < 4; j++)
+            //    {
+            //        Console.Write($"{i},{j}\t");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            //for (int i = 1; i <= 5; i++)
+            //{
+            //    for (int j = 0; j < i; j++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+            //Console.WriteLine("Enter row count:");
+            //int row = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter column count:");
+            //int column = int.Parse(Console.ReadLine());
+
+            //for (int i = 0; i < row; i++)
+            //{
+            //    for (int j = 0; j < column; j++)
+            //    {
+            //        Console.Write((i + j) % 2 == 0 ? "*" : " ");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            //abcd=4*dcba
+            //abcd?
+
+            //bool control = false;
+            //var st = new Stopwatch();
+            //st.Start();
+            //for (int a = 1; a < 10; a++)
+            //{
+            //    for (int b = 0; b < 10; b++)
+            //    {
+            //        for (int c = 0; c < 10; c++)
+            //        {
+            //            for (int d = 0; d < 10; d++)
+            //            {
+            //                Console.WriteLine($"{a}{b}{c}{d}");
+            //                if (1000 * a + 100 * b + 10 * c + d == 4 * (1000 * d + 100 * c + 10 * b + a))
+            //                {
+            //                    Console.WriteLine($"{a}{b}{c}{d}");
+            //                    control = true;
+            //                    break;
+            //                }
+            //            }
+            //            if (control)
+            //            {
+            //                break;
+            //            }
+            //        }
+            //        if (control)
+            //        { break; }
+            //    }
+            //    if (control)
+            //    { break; }
+            //}
+            //st.Stop();
+            //Console.WriteLine(st.ElapsedMilliseconds);
+
+            //3-4-5
+            //4-3-5
+            //5-12-13
+            //6-8-10
+            //.....
+
+            //for (int i = 1; i < 50; i++)
+            //{
+            //    for (int j = 1; j < 50; j++)
+            //    {
+            //        for (int k = 1; k < 50; k++)
+            //        {
+            //            if (i * i + j * j == k * k)
+            //            {
+            //                Console.WriteLine($"{i}-{j}-{k}");
+            //            }
+            //        }
+            //    }
+            //}
+
+            //Enter starting number:5
+            //Enter end number:8
+            //5-Is Prime
+            //6-Is not prime
+            //7-Is Prime
+            //8-Is not prime
+
+            //Console.WriteLine("Enter starting number:");
+            //int start = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter end number:");
+            //int end = int.Parse(Console.ReadLine());
+            //for (int i = start; i < end; i++)
+            //{
+            //    int count = 0;
+            //    for (int j = 2; j <= (i / 2); j++)
+            //    {
+            //        if (i % j == 0)
+            //        {
+            //            count++;
+            //            break;
+            //        }
+            //    }
+            //    Console.WriteLine(count == 0 ? $"{i}-Is Prime" : $"{i}-Is Not Prime");
+            //}
+
+            //int count = 0;
+            //while (count<5)
+            //{
+            //    Console.WriteLine("Gazi");
+            //    count++;
+            //}
+
+
+            //int max = int.MinValue;
+            //int toplam = 0;
+            //while (true )
+            //{
+            //    Console.Write("Bir sayı giriniz: ");
+            //    int sayi = int.Parse(Console.ReadLine());
+            //    toplam += sayi;
+            //    if (sayi > max)
+            //    {
+            //        max = sayi;
+            //    }
+            //    Console.WriteLine("Devam etmek istiyor musunuz?");
+            //    string yanit = Console.ReadLine().ToLower();
+            //    if (yanit == "h")
+            //    {
+            //        break;
+            //    }
+            //    else if (yanit == "e")
+            //    {
+            //        continue;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Hatalı giriş yaptınız!");
+            //    }
+            //}
+            //Console.WriteLine($"Girilen en büyük sayı: {max}\nSayıların toplamı:{toplam}");
+
+            //do
+            //{
+            //    Console.WriteLine("Gazi");
+            //} while (false);
+
+            //int max = int.MinValue;
+            //double toplam = 0;
+            //double sayac = 0;
+            //string yanit ;
+
+            //do
+            //{
+
+            //    Console.Write("Bir sayı giriniz: ");
+            //    int sayi = int.Parse(Console.ReadLine());
+            //    toplam += sayi;
+            //    sayac++;
+            //    toplam += sayi;
+            //    if (sayi > max)
+            //    {
+            //        max = sayi;
+            //    }
+            //    Console.WriteLine("Devam etmek istiyor musunuz?");
+
+            //} while (yanit =="h");
+
+            //Console.WriteLine($"Girilen en büyük sayı: {max}\nSayıların toplamı:{toplam}");
+
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    for (int j = 0; j < 10; j++)
+            //    {
+            //        Random rnd = new Random();
+            //        int number = rnd.Next(33, 127);
+            //        Console.Write((char)number);
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+     
+            Random rnd = new Random();
+            int number = rnd.Next(10);
+            while (true)
             {
-            Console.Write("Bir sayı giriniz: ");
-            int sayi = int.Parse(Console.ReadLine());
-                toplam += sayi;
-            if (sayi > max)
+                Console.WriteLine("Sayıyı tahmin ediniz");
+                int sayi = int.Parse(Console.ReadLine());
+                if (number == sayi)
                 {
-                    max = sayi;
+                    Console.WriteLine("Tebrikler bildiniz");
                 }
-            Console.WriteLine("Devam etmek istiyor musunuz?");
-            string yanit =Console.ReadLine().ToLower();
-            if (yanit== "h")
-            {
-                    break;
-            }            
-            else if (yanit== "e")
+                else
                 {
-                    continue;
-                }
-            else
-                {
-                    Console.WriteLine("Hatalı giriş yaptınız!");
+                    Console.WriteLine("Tekrar deneyiniz\n");
                 }
             }
-            Console.WriteLine($"Girilen en büyük sayı: {max}\nSayıların toplamı:{toplam}");
+            //ÖDEV
+            // SEVİYE + PUAN SİSTEMİ 
+            //KOLAY ORTA ZOR
+            //ARALIK BÜYÜR HAK AZALIRSA
+            //KOD TEKRARI OLMASIN
+            //KOLAYDA SAYI BÜYÜKSE BÜYÜK DESİN KÜÇÜKSE KÜÇÜK DESİN DESTEK OLARAK
+
         }
     }
 }
