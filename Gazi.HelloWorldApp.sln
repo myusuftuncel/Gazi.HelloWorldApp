@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gazi.HelloWorldApp", "Gazi.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gazi.KararyapilariApp", "Gazi.KararyapilariApp\Gazi.KararyapilariApp.csproj", "{0DBB792E-A9B5-4416-BF91-59FCAE063F06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gazi.DongulerApp", "Gazi.DongulerApp\Gazi.DongulerApp.csproj", "{CA46CBFF-A2B3-457E-BE54-C772259FFD22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gazi.DongulerApp", "Gazi.DongulerApp\Gazi.DongulerApp.csproj", "{CA46CBFF-A2B3-457E-BE54-C772259FFD22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "odev1", "odev1\odev1.csproj", "{347DBDDB-A118-4555-B312-0C99DAE20176}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{CA46CBFF-A2B3-457E-BE54-C772259FFD22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA46CBFF-A2B3-457E-BE54-C772259FFD22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA46CBFF-A2B3-457E-BE54-C772259FFD22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{347DBDDB-A118-4555-B312-0C99DAE20176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{347DBDDB-A118-4555-B312-0C99DAE20176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{347DBDDB-A118-4555-B312-0C99DAE20176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{347DBDDB-A118-4555-B312-0C99DAE20176}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
